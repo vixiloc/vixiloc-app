@@ -24,7 +24,7 @@ const About = () => {
     )
 }
 
-function MedsosIcon(props) {
+function MedsosIcon(props: any) {
     return (
         <div className='p-3 m-1 rounded-full bg-slate-900 hover:bg-slate-100'>
             <a href={props.link} target="_blank" rel="noreferrer noopener">

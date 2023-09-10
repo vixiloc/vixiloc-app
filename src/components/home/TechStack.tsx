@@ -11,7 +11,7 @@ const TechStack = () => {
             </div>
         </>
     )
-    function TechStackList(props) {
+    function TechStackList(props : any) {
         return (
             <div className="w-full m-2 card bg-primary text-primary-content">
                 <div className="card-body">

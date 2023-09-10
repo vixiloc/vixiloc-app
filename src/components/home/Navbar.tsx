@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from 'react';
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
@@ -10,7 +10,7 @@ const Navbar = () => {
         <>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a className="text-xl normal-case btn btn-ghost">Vixiloc</a>
+                    <a className="text-xl normal-case btn btn-ghost" href='/'>Vixiloc</a>
                 </div>
                 <div className="flex-none md:hidden">
                     {/* Tombol hamburger */}
