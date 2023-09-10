@@ -11,14 +11,14 @@ const TechStack = () => {
             </div>
         </>
     )
-    function TechStackList(props) {
+    function TechStackList(props : any) {
         return (
             <div className="w-full m-2 card bg-primary text-primary-content">
                 <div className="card-body">
                     <h2 className="card-title">{props.name}</h2>
                     <p>{props.desc}</p>
                     <div className="justify-end card-actions">
-                        <a href={props.link} target="_blank" rel="noopener noreferrer">
+                        <a href={props.link} target="_blank" rel="noreferrer">
                             <button className="btn">Learn More</button>
                         </a>
                     </div>
